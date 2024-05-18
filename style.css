@@ -68,3 +68,13 @@ section div {
 .foto-perfil img {
     width: 300px;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul li {
+    color: white;
+}
