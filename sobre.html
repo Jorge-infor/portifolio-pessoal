@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Jorge Alberto</title>
-    </head>
-    <body>
-        <header>
-            <div class="nome">
-                <a href="index.html">Jorge Alberto</a>
-            </div>
-            <div class="menu">
-                <a href="sobre.html">Sobre Mim</a>
-                <a href="formacao.html">Formação</a>
-                <a href="portifolio.html">Portifólio</a>
-                <a href="contato.html">Contato</a>
-            </div>
-        </header>
-
-        <div class="root">
-            <section>
-                <h1>Sobre Mim</h1>
-                <!-- CSS Inline para modificar alinhamento dos itens -->
-                <div style="display: flex; flex-direction: column;">
-                    <div class="foto-perfil">
-                        <img src="./public/perfil.jpg" alt="" style="width: 150px;">
-                    </div>
-                    <div style="display: flex; flex-direction: column;gap: 5px;">
-                        <p>&emsp;Meu nome é Jorge Alberto, tenho 39 anos e sou casado. Atualmente, trabalho na área metalúrgica, onde tenho desenvolvido minha carreira com dedicação e competência. Nas horas vagas, dedico-me à arte da <a href="portifolio.html" style="color: #FF7B00;">tatuagem</a>, uma paixão que me permite expressar minha criatividade e conectar-me com as pessoas de uma maneira única. </p>
-                        <p>&emsp;Além disso, estou cursando Engenharia de Software na faculdade, com o objetivo de mudar de área e explorar as vastas oportunidades oferecidas pelo setor de tecnologia. Com muita determinação e empenho, estou adquirindo novas habilidades e conhecimentos que me ajudarão a construir um futuro promissor nessa nova trajetória profissional.
-                        </p>
-                    </div>
-                </div>
-            </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para responsividade -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo de estilo CSS externo -->
+    <title>Jorge Alberto</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+    <header>
+        <div class="nome">
+            <a href="index.html">Jorge Alberto</a> <!-- Link para a página inicial -->
         </div>
+        <div class="menu">
+            <!-- Links de navegação para outras seções do site -->
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
 
-    </body>
+    <div class="root">
+        <section>
+            <h1>Sobre Mim</h1> <!-- Título da seção "Sobre Mim" -->
+            <!-- CSS Inline para modificar alinhamento dos itens -->
+            <div style="display: flex; flex-direction: column;">
+                <div class="foto-perfil">
+                    <!-- Imagem de perfil com largura definida em CSS inline -->
+                    <img src="./public/perfil.jpg" alt="" style="width: 150px;">
+                </div>
+                <!-- Container para texto com espaçamento entre parágrafos -->
+                <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <!-- Primeiro parágrafo com link para o portfólio e cor definida em CSS inline -->
+                    <p>&emsp;Meu nome é Jorge Alberto, tenho 39 anos e sou casado. Atualmente, trabalho na área metalúrgica, onde tenho desenvolvido minha carreira com dedicação e competência. Nas horas vagas, dedico-me à arte da <a href="portifolio.html" style="color: #FF7B00;">tatuagem</a>, uma paixão que me permite expressar minha criatividade e conectar-me com as pessoas de uma maneira única.</p>
+                    <!-- Segundo parágrafo explicando sobre sua educação e mudança de carreira -->
+                    <p>&emsp;Além disso, estou cursando Engenharia de Software na faculdade, com o objetivo de mudar de área e explorar as vastas oportunidades oferecidas pelo setor de tecnologia. Com muita determinação e empenho, estou adquirindo novas habilidades e conhecimentos que me ajudarão a construir um futuro promissor nessa nova trajetória profissional.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
 </html>

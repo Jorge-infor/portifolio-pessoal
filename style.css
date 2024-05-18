@@ -1,123 +1,142 @@
+/* Importa a fonte Roboto do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Define estilos para todos os elementos */
 * {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    margin: 0; /* Remove margens padrão */
+    font-family: "Roboto", sans-serif; /* Define a fonte Roboto como padrão */
+    font-weight: 500; /* Define o peso da fonte como 500 */
+    font-style: normal; /* Define o estilo da fonte como normal */
 }
 
+/* Estilos específicos para o corpo da página */
 body {
-    background-color: #242423;
+    background-color: #242423; /* Define a cor de fundo do corpo da página */
 }
 
+/* Estilos para o cabeçalho */
 header {
-    height: 70px;
-    background-color: #FF7B00;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding-left: 20px;
-    padding-right: 40px;
+    height: 70px; /* Define a altura do cabeçalho */
+    background-color: #FF7B00; /* Define a cor de fundo do cabeçalho */
+    display: flex; /* Configura o display como flexível */
+    justify-content: space-between; /* Alinha os itens do cabeçalho */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding-left: 20px; /* Adiciona espaçamento à esquerda */
+    padding-right: 40px; /* Adiciona espaçamento à direita */
 }
 
+/* Estilos para os links dentro do cabeçalho */
 header div a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove a decoração de texto (sublinhado) */
 }
 
+/* Estilos para o menu de navegação */
 .menu {
-    display: flex;
-    gap: 40px;
+    display: flex; /* Configura o display como flexível */
+    gap: 40px; /* Define o espaçamento entre os itens do menu */
 }
 
+/* Estilos para o título principal */
 h1 {
-    color: white;
-    font-size: 30px;
-    margin: 40px;
+    color: white; /* Define a cor do texto como branco */
+    font-size: 30px; /* Define o tamanho da fonte */
+    margin: 40px; /* Adiciona margem ao redor do título */
 }
 
+/* Estilos para parágrafos */
 p {
-    color: white;
+    color: white; /* Define a cor do texto como branco */
 }
 
+/* Estilos para o container principal */
 .root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Configura o display como flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Alinha os itens verticalmente */
 }
 
+/* Estilos para as seções */
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
+    display: flex; /* Configura o display como flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Alinha os itens verticalmente */
+    width: 70%; /* Define a largura da seção */
 }
 
+/* Estilos para os elementos dentro da seção */
 section div {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    padding: 10px;
+    display: flex; /* Configura o display como flexível */
+    align-items: center; /* Alinha os itens horizontalmente */
+    gap: 50px; /* Define o espaçamento entre os itens */
+    padding: 10px; /* Adiciona preenchimento ao redor dos elementos */
 }
 
+/* Estilos para a imagem do perfil */
 .foto-perfil img {
-    width: 300px;
+    width: 300px; /* Define a largura da imagem */
 }
 
+/* Estilos para a lista */
 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    display: flex; /* Configura o display como flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    gap: 30px; /* Define o espaçamento entre os itens */
 }
 
+/* Estilos para os itens da lista */
 ul li {
-    color: white;
+    color: white; /* Define a cor do texto como branco */
 }
 
+/* Estilos para o formulário */
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Configura o display como flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    justify-content: center; /* Alinha os itens verticalmente */
+    align-items: center; /* Alinha os itens horizontalmente */
 }
 
+/* Estilos para o container dos campos do formulário */
 .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
+    display: flex; /* Configura o display como flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: start; /* Alinha os itens à esquerda */
+    gap: 10px; /* Define o espaçamento entre os itens */
 }
 
+/* Estilos para as labels dos campos do formulário */
 label {
-    color: white;
+    color: white; /* Define a cor do texto como branco */
 }
 
+/* Estilos para os campos de entrada */
 input {
-    width: 300px;
-    height: 25px;
-    border-radius: 5px;
+    width: 300px; /* Define a largura do campo de entrada */
+    height: 25px; /* Define a altura do campo de entrada */
+    border-radius: 5px; /* Define o raio das bordas do campo de entrada */
 }
 
+/* Estilos para o campo de texto */
 textarea {
-    width: 300px;
-    height: 100px;
+    width: 300px; /* Define a largura do campo de texto */
+    height: 100px; /* Define a altura do campo de texto */
 }
 
+/* Estilos para o botão */
 button {
-    margin: 10px;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: #FF7B00;
+    margin: 10px; /* Adiciona margem ao redor do botão */
+    width: 100px; /* Define a largura do botão */
+    height: 30px; /* Define a altura do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Define o raio das bordas do botão */
+    color: white; /* Define a cor do texto como branco */
+    background-color: #FF7B00; /* Define a cor de fundo do botão */
 }
 
+/* Estilos para o botão ao passar o mouse sobre ele */
 button:hover {
-    cursor: pointer;
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
 }

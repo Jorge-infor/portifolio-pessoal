@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Jorge Alberto</title>
-    </head>
-    <body>
-        <header>
-            <div class="nome">
-                <a href="index.html">Jorge Alberto</a>
-            </div>
-            <div class="menu">
-                <a href="sobre.html">Sobre Mim</a>
-                <a href="formacao.html">Formação</a>
-                <a href="portifolio.html">Portifólio</a>
-                <a href="contato.html">Contato</a>
-            </div>
-        </header>
-
-        <div class="root">
-            <section>
-                <h1>Contato</h1>
-                <div style="display: flex; flex-direction: column">
-                    <form action="">
-                        <div class="form-container">
-                            <label for="">Nome</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-container">
-                            <label for="">Email</label>
-                            <input type="email">
-                        </div>
-                        <div class="form-container">
-                            <label for="">Nome</label>
-                            <textarea></textarea>
-                        </div>
-                        <button>Enviar</button>
-                    </form>
-                </div>
-            </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a viewport para responsividade -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo de estilo CSS externo -->
+    <title>Jorge Alberto</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+    <header>
+        <div class="nome">
+            <a href="index.html">Jorge Alberto</a> <!-- Link para a página inicial -->
         </div>
+        <div class="menu">
+            <!-- Links de navegação para outras seções do site -->
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
 
-    </body>
+    <div class="root">
+        <section>
+            <h1>Contato</h1> <!-- Título da seção "Contato" -->
+            <!-- Container para o formulário de contato -->
+            <div style="display: flex; flex-direction: column">
+                <form action="">
+                    <!-- Container para cada campo do formulário -->
+                    <div class="form-container">
+                        <label for="">Nome</label> <!-- Label do campo "Nome" -->
+                        <input type="text"> <!-- Campo de entrada para o nome -->
+                    </div>
+                    <div class="form-container">
+                        <label for="">Email</label> <!-- Label do campo "Email" -->
+                        <input type="email"> <!-- Campo de entrada para o email -->
+                    </div>
+                    <div class="form-container">
+                        <label for="">Mensagem</label> <!-- Label do campo "Mensagem" -->
+                        <textarea></textarea> <!-- Campo de entrada para a mensagem -->
+                    </div>
+                    <button>Enviar</button> <!-- Botão de envio do formulário -->
+                </form>
+            </div>
+        </section>
+    </div>
+
+</body>
 </html>
