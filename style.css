@@ -32,3 +32,39 @@ header div a {
     display: flex;
     gap: 40px;
 }
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin: 40px;
+}
+
+p {
+    color: white;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.foto-perfil img {
+    width: 300px;
+}
